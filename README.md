@@ -6,7 +6,6 @@ package main
 
 import (
 	"fmt"
-	"strings"
 
 	"github.com/piotrrojek/wykop-go"
 )
@@ -25,7 +24,7 @@ func main() {
 		fmt.Println("Wystąpił błąd:", err)
 	}
 
-	for i, x := range entries[0:5] {
+	for i, x := range entries[0:4] {
 		fmt.Printf("%v:\n", i+1)
 		fmt.Println("Autor:", x.Author)
 		fmt.Println("Data:", x.Date)

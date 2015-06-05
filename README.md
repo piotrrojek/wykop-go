@@ -1,10 +1,11 @@
 # wykop-go
 
-## Zaimplementowane dotąd:
+### Zaimplementowane dotąd:
 - Mikroblog: pobieranie wpisów, gorących, indywidualnych wpisów
 - Strona główna
+- Wykopalisko
 
-Przykładowe zastosowanie (pobranie 5 najlepszych gorących z ostatnich 6 godzin):
+#### Przykładowe zastosowanie (pobranie 5 najlepszych gorących z ostatnich 6 godzin):
 ```go
 package main
 

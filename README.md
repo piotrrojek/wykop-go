@@ -8,6 +8,10 @@
 - Profil użytkownika
 - Linki dodane przez użytkownika
 
+### TODO:
+- interakcja użytkownika i uwierzytelnianie
+- parsowanie dat
+
 #### Przykładowe zastosowanie (pobranie 5 najlepszych gorących z ostatnich 6 godzin):
 ```go
 package main

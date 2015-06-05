@@ -4,6 +4,9 @@
 - Mikroblog: pobieranie wpisów, gorących, indywidualnych wpisów
 - Strona główna
 - Wykopalisko
+- Ostatnio popularne
+- Profil użytkownika
+- Linki dodane przez użytkownika
 
 #### Przykładowe zastosowanie (pobranie 5 najlepszych gorących z ostatnich 6 godzin):
 ```go

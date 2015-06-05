@@ -1,6 +1,10 @@
 # wykop-go
 
-Przykładowe zastosowanie (pobranie 5 najlepszych gorących z ostanich 6 godzin):
+## Zaimplementowane dotąd:
+- Mikroblog: pobieranie wpisów, gorących, indywidualnych wpisów
+- Strona główna
+
+Przykładowe zastosowanie (pobranie 5 najlepszych gorących z ostatnich 6 godzin):
 ```go
 package main
 

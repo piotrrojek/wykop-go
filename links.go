@@ -56,3 +56,18 @@ func (s *Session) GetLinksPromoted(page int) ([]Link, error) {
 	json.Unmarshal(body, &ls)
 	return ls, nil
 }
+
+func (s *Session) GetLinksUpcoming(page int, sort string) ([]Link, error) {
+	url := baseUri + "/Links/Upcoming/appkey," + s.appkey + ",page," + strconv.Itoa(page) + ",sort," + sort
+	resp, err := getRequest(url, s.appsecret, s.ClearOutput)
+	if err != nil {
+		return []Link{}, err
+	}
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return []Link{}, err
+	}
+	var ls []Link
+	json.Unmarshal(body, &ls)
+	return ls, nil
+}
